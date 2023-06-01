@@ -58,7 +58,7 @@ public class Ghost : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     { 
 
-        // Check if Player Hits an Obstacle
+        // Check if Player Hits an Enemy
         if (collision.gameObject.tag == "Enemy")
         {
             health--;
